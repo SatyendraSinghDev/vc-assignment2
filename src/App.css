@@ -3,3 +3,9 @@
 .table-icon {
     font-size: 26px;
 }
+
+.player-grid {
+    width: "200px";
+    height: "180px";
+    border: "1px solid #FFFFFF";
+}
