@@ -4,6 +4,7 @@ import Grid from "../components/Grid";
 
 const GridList = () => {
   // return <Grid rows={3} columns={5} />;
+
   return (
     <div style={{ display: "flex", height: "100vh" }}>
       <div style={{ flex: "1", backgroundColor: "#33373D" }}>
@@ -81,7 +82,9 @@ const GridList = () => {
           </div>
         </div>
       </div>
-      <div style={{ flex: "4", backgroundColor: "#060606" }}>Right Div</div>
+      <div style={{ flex: "4", backgroundColor: "#060606" }}>
+        <Grid />
+      </div>
     </div>
   );
 };
