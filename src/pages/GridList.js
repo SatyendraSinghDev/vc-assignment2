@@ -10,7 +10,16 @@ const GridList = () => {
         <label forHtml="rows" className="text-white d-block">
           Row
         </label>
-        <input type="text" style={{ width: "50px", height: "40px" }} />
+        <input
+          type="text"
+          style={{
+            width: "50px",
+            height: "40px",
+            backgroundColor: "gray",
+            border: "1px solid #6a6363",
+            color: "#FFFFFF",
+          }}
+        />
       </div>
       <div style={{ flex: "4", backgroundColor: "black" }}>Right Div</div>
     </div>
