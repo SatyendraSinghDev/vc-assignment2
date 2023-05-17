@@ -66,6 +66,7 @@ const GridList = () => {
                     backgroundColor: "#39548A",
                     width: "70px",
                     height: "40px",
+                    marginRight: "-12px",
                   }}
                   type="submit"
                 >
@@ -79,41 +80,45 @@ const GridList = () => {
             className="d-flex justify-content-between"
             style={{ padding: "5px 0px 0px 5px" }}
           >
-            <div
-              onClick={() => {
-                setRows(2);
-                setColumns(3);
-              }}
-            >
-              <BsTable className="text-white table-icon" />
-              <p className="text-white">2x3</p>
+            <div>
+              <BsTable
+                className="text-white table-icon"
+                onClick={() => {
+                  setRows(2);
+                  setColumns(3);
+                }}
+              />
+              <p className="text-white m-0">2x3</p>
             </div>
-            <div
-              onClick={() => {
-                setRows(3);
-                setColumns(4);
-              }}
-            >
-              <BsTable className="text-white table-icon" />
-              <p className="text-white">3x4</p>
+            <div>
+              <BsTable
+                className="text-white table-icon"
+                onClick={() => {
+                  setRows(3);
+                  setColumns(4);
+                }}
+              />
+              <p className="text-white m-0">3x4</p>
             </div>
-            <div
-              onClick={() => {
-                setRows(4);
-                setColumns(5);
-              }}
-            >
-              <BsTable className="text-white table-icon" />
-              <p className="text-white">4x5</p>
+            <div>
+              <BsTable
+                className="text-white table-icon"
+                onClick={() => {
+                  setRows(4);
+                  setColumns(5);
+                }}
+              />
+              <p className="text-white m-0">4x5</p>
             </div>
-            <div
-              onClick={() => {
-                setRows(5);
-                setColumns(6);
-              }}
-            >
-              <BsTable className="text-white table-icon" />
-              <p className="text-white">5x6</p>
+            <div>
+              <BsTable
+                className="text-white table-icon"
+                onClick={() => {
+                  setRows(5);
+                  setColumns(6);
+                }}
+              />
+              <p className="text-white m-0">5x6</p>
             </div>
           </div>
         </div>
